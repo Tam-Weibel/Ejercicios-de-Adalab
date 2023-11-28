@@ -1,0 +1,13 @@
+table{
+    margin: 20px;
+    border: 5px blue solid;
+    background-color: grey;
+    text-align: center;
+    grid: 2px blue dotted;
+    display: inline-block;
+}
+
+tr{
+    column-width: text;
+}
+
