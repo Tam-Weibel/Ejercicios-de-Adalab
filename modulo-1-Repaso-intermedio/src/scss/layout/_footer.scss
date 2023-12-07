@@ -1,0 +1,34 @@
+.footer{
+    height: 10vh;
+    border-top: 3px solid $fer;
+    font-family: $font;
+    text-align: center;
+
+    &__r{
+        color:white;
+        background: $fer;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        padding: 15px;
+        position: sticky;
+        margin: -25px auto;
+    }
+    &__copy{
+        padding: 6vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+    
+        &__r{
+            margin: 0 30px;
+        }
+    }
+}

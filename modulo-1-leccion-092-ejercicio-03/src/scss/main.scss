@@ -1,0 +1,40 @@
+.header{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-small;
+    background: rgb(25, 146, 134);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h-1{
+    height: 20vh;
+}
+.pic{
+    background-image: cover;
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 100%;    
+}
+@media (min-width: 768px) {
+    .h-1{
+        height: 33vh;
+        }
+}
+@media (min-width: 992px) {
+    .header{
+        align-items: center;
+    }
+    .h-1{
+    height: 66vh;
+    }
+}

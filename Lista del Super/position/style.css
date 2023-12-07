@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box{
+    margin: 1.5rem auto;
+    border-radius: 1.0rem, blue dotted;
+    color: blue;
+
+}
+
+#bottom{
+    font-size: 1.5rem;
+    padding: 2.0rem;
+    padding-top: 8rem;
+    background-color: aqua;
+    position: relative;
+    width: 50vw; 
+    min-height: 10rem;
+
+}
+
+#top{
+    font-size: 2.4rem;
+    padding: 2.0rem;
+    background-color: greenyellow;
+    position: absolute;
+    width: 10vw;
+    height: 10.0rem;
+    
+}
