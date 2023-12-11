@@ -1,0 +1,40 @@
+
+.row{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    text-transform: uppercase;
+    font-size: large;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: pink;
+}
+.menu{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: purple;
+}
+.content{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: salmon;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background: lightblue;
+}
