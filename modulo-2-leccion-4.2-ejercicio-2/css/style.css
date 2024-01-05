@@ -1,0 +1,12 @@
+* {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.green{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+}
