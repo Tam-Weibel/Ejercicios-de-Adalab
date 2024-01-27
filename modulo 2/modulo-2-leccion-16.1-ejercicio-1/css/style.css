@@ -1,0 +1,11 @@
+* {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+}
+.time{
+  font-size: 32px;
+  padding-left: 50px;
+  color: red;
+  font-weight: 900;
+}

@@ -1,0 +1,41 @@
+.footer{
+    border-top: 3px solid $fer;
+    font-family: $font;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__r{
+        color:white;
+        background: $fer;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        line-height: 50px;
+        position: sticky;
+        margin: -25px auto;
+
+        @media (min-width: 768px) {
+            margin: 0 30px;
+        }
+    }
+    &__copy{
+        padding: 6vh;
+    }
+    &__img{
+        height: 40px;
+        margin-bottom: 4vh;
+        @media (min-width: 768px) {
+            margin: 0 30px;
+        }
+    }
+}
