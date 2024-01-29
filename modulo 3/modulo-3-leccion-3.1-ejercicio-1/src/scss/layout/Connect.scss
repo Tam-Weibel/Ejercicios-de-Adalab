@@ -1,0 +1,56 @@
+.connect {
+  margin: 34px 20px 50px 20px;
+  &__orange {
+    font-family: $text-font;
+    font-weight: 400;
+    color: $orange;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &__title {
+    font-family: $title-font;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  &__text {
+    font-family: $text-font;
+    font-weight: 400;
+    color: $dark-grey;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  &__button {
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid $orange;
+    text-align: center;
+    & a {
+      padding: 14px 40px;
+      color: $orange;
+      font-family: $text-font;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 45px;
+      text-decoration: none;
+    }
+  }
+  @media (min-width: 768px) {
+    margin: 34px 40px 50px 40px;
+    &__orange {
+      font-size: 16px;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 45px;
+    }
+    &__text {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 1280px) {
+    margin: 34px 140px 50px 275px;
+  }
+}
